@@ -1,0 +1,71 @@
+#content {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+#topdiv {
+    width: 100px;
+    margin: 0 auto;
+    float: left;
+}
+
+
+#self {
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+
+li {float: right;}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+
+
+body {
+background-image: url('/Users/atrod/Projects/Basic-Portfolio/assets/images/spikes.png');
+}
+
+#footer {
+    position: fixed;
+    height: 35px;
+    left: auto;
+    bottom: auto;
+}
+
+#minifoot{
+
+    background-color: #4aaaa5;
+    position: relative;
+    width: 100%;
+    height: 5px;
+
+}
+
+#bigfoot {
+    background-color: #666666;
+    position: relative;
+    width: 100%;
+    height: 30px;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
