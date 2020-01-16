@@ -1,13 +1,19 @@
-#content {
+.content {
     width: 960px;
-    margin: 0 auto;
+    margin: auto auto;
     background-color: #ffffff;
+    border: 1px solid black;
+    
 }
 
 #topdiv {
-    width: 100px;
-    margin: 0 auto;
-    float: left;
+    margin-top: none;
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    border: solid 1px black;
+    
+    
 }
 
 
@@ -15,6 +21,7 @@
     height: 150px;
     width: 150px;
     float: left;
+    border: 1px solid black;
 }
 
 li {float: right;}
@@ -29,43 +36,74 @@ li a {
 
 #navbar {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: 19px 0;
     overflow: hidden;
     background-color: #ffffff;
+    border: 1px solid black;
 }
-
-
 
 body {
 background-image: url('/Users/atrod/Projects/Basic-Portfolio/assets/images/spikes.png');
+border: 1px solid black;
 }
 
-#footer {
-    position: fixed;
-    height: 35px;
-    left: auto;
-    bottom: auto;
-}
-
-#minifoot{
-
-    background-color: #4aaaa5;
-    position: relative;
-    width: 100%;
-    height: 5px;
-
-}
-
-#bigfoot {
-    background-color: #666666;
-    position: relative;
-    width: 100%;
-    height: 30px;
-}
 
 h1 {
     color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
+#topname {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    height: 30px;
+    text-align: center;
+    width: 150px;
+    padding: 23px 0;
+    border: 1px solid rgb(14, 233, 113);
+}
+
+#container1 {
+    width: 960px;
+    height: 70px;
+    align-content: center;
+    vertical-align: middle;
+    border: 1px solid purple;
+    text-align: center;
+}
+
+#navbardiv {
+   float: right;
+   vertical-align: middle;
+   height: 70px;
+   border: 1px solid red;
+}
+
+#greenfoot {
+    background-color: #4aaaa5;
+    height: 5px;
+    width: 100%;
+    bottom: 0px;
+    display: inline-block;
+    margin: none;
+    position: relative;
+    border: 1px solid black;
+}
+
+#greyfoot {
+    background-color: #666666 ;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    border: 1px solid black;
+
+    
+}
+.linebreak {
+    border: 1px solid black;
+}
