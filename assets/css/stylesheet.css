@@ -7,7 +7,6 @@ html {
     width: 870px;
     margin: auto auto;
     background-color: #ffffff;
-    border: 1px solid black;
     line-height: 1.5;
     padding: 20px 45px;
     
@@ -55,8 +54,7 @@ li a {
 }
 
 body {
-    background-image: url('/Users/Cheebachong/code/Basic-Portfolio/assets/images/spikes.png');
-    order: 1px solid black;
+    background-image: url('../images/spikes.png'); /*  fix this to a relative path and get the background working, no absolute paths, per class on 1/18. makes sense since we wont have the same files on server*/
     width: 100%;
     height: 100%;
     margin: 0 0 ;
@@ -88,7 +86,6 @@ h1 {
     vertical-align: middle;
     text-align: center;
     margin: auto auto;
-    border: 1px solid black;
 }
 
 #navbardiv {
@@ -119,10 +116,6 @@ h1 {
     font-size: x-small;
 }
 
-.linebreak {
-    border: 1px solid black;
-}
-
 #header {
     width: 100%;
     height: 32px;
@@ -139,6 +132,5 @@ footer {
     width: 100%;
     vertical-align: center;
     margin: auto auto;
-    background-image: url('/Users/Cheebachong/code/Basic-Portfolio/assets/images/spikes.png');
 }
 
