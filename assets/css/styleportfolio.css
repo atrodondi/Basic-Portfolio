@@ -1,0 +1,94 @@
+.header {
+  background-color: #ffffff;
+  border-bottom: #cccccc;
+  width: 100%;
+  height: 70px;
+}
+
+#topname {
+  background-color: #4aaaa5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  float: left;
+  height: 70px;
+  text-align: center;
+  width: 150px;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: auto;
+  padding: 19px 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+#container1 {
+  width: 960px;
+  height: 70px;
+  align-content: center;
+  vertical-align: middle;
+  text-align: center;
+  margin: auto auto;
+}
+
+#navbardiv {
+  float: right;
+  vertical-align: middle;
+  height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url("../images/spikes.png"); /*  fix this to a relative path and get the background working, no absolute paths, per class on 1/18. makes sense since we wont have the same files on server*/
+  width: 100%;
+  height: 100%;
+  margin: 0 0;
+  padding: 0 0;
+}
+#greenfoot {
+  background-color: #4aaaa5;
+  height: 5px;
+  width: 100%;
+  bottom: 0px;
+  margin: 0 0 0 0;
+  padding: 0 0;
+}
+
+#greyfoot {
+  background-color: #666666;
+  width: 100%;
+  height: 40px;
+  margin: 0 0;
+  text-align: center;
+  padding: 0 0;
+  color: #ffffff;
+  font-size: x-small;
+}
+
+#header {
+  width: 100%;
+  height: 32px;
+}
+
+footer {
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #777777;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+#ar {
+  font-size: x-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #ffffff;
+}
