@@ -92,3 +92,37 @@ li a {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #ffffff;
 }
+
+html {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.content {
+  width: 870px;
+  margin: auto auto;
+  background-color: #ffffff;
+  line-height: 1.5;
+  padding: 20px 45px;
+}
+
+h1 {
+  color: #4aaaa5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#message {
+  padding: 5px;
+  height: 100px;
+}
+
+.input {
+  width: 100%;
+}
+
+#submit {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 8px;
+  margin: 16px 0px 0px 0px;
+}
