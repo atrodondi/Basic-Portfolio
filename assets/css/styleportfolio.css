@@ -72,7 +72,7 @@ body {
 
 footer {
   bottom: 0px;
-  position: absolute;
+  position: relative;
   width: 100%;
 }
 
@@ -100,13 +100,42 @@ html {
 
 .content {
   width: 870px;
-  margin: auto auto;
+  margin: 50px auto;
   background-color: #ffffff;
-  line-height: 1.5;
   padding: 20px 45px;
+  height: 100%;
 }
 
 h1 {
   color: #4aaaa5;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#proj1,
+#proj2,
+#proj3,
+#proj4,
+#proj5 {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  max-width: 100%;
+  display: inline-block;
+  position: absolute;
+}
+
+.project {
+  width: 320px;
+  height: 300px;
+  float: left;
+  position: relative;
+  margin: 5px 5px;
+}
+
+.projpic {
+  max-width: 320px;
+  max-height: 300px;
+}
+
+.clearfix {
+  clear: both;
 }
