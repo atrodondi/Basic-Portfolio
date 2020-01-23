@@ -120,7 +120,10 @@ h1 {
   color: #ffffff;
   max-width: 100%;
   display: inline-block;
-  position: absolute;
+  position: relative;
+  margin: 0px 0px 0px 70px;
+  z-index: 1;
+  padding: 0px 20px;
 }
 
 .project {
@@ -134,6 +137,7 @@ h1 {
 .projpic {
   max-width: 320px;
   max-height: 300px;
+  z-index: 0;
 }
 
 .clearfix {
