@@ -118,12 +118,16 @@ h1 {
 #proj5 {
   background-color: #4aaaa5;
   color: #ffffff;
-  max-width: 100%;
-  display: inline-block;
-  position: relative;
-  margin: 0px 0px 0px 70px;
+  position: absolute;
   z-index: 1;
-  padding: 0px 20px;
+  width: 272px;
+  text-align: center;
+  bottom: 14px;
+  padding: 14px;
+}
+
+#proj4 {
+  width: 197px;
 }
 
 .project {
@@ -138,8 +142,18 @@ h1 {
   max-width: 320px;
   max-height: 300px;
   z-index: 0;
+  margin: auto auto;
 }
 
 .clearfix {
   clear: both;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#jax {
+  margin: auto auto;
 }
