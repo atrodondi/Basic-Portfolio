@@ -119,7 +119,7 @@ h1 {
 
 footer {
   bottom: 0px;
-  position: relative;
+  position: absolute;
   width: 100%;
 }
 
@@ -127,4 +127,9 @@ footer {
   width: 100%;
   vertical-align: center;
   margin: auto auto;
+}
+
+#main {
+  min-height: 100vh;
+  position: relative;
 }

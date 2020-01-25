@@ -72,7 +72,7 @@ body {
 
 footer {
   bottom: 0px;
-  position: relative;
+  position: relative; /*I dont know why, but for some reason only in this page, do i need to keep the position of the footer relative, and not absolute to keep it at bottom, its the opposite for index and contact*/
   width: 100%;
 }
 
@@ -152,8 +152,4 @@ h1 {
 a {
   color: #ffffff;
   text-decoration: none;
-}
-
-#jax {
-  margin: auto auto;
 }
