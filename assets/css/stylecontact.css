@@ -125,6 +125,7 @@ h1 {
   color: #ffffff;
   padding: 8px;
   margin: 16px 0px 0px 0px;
+  display: block;
 }
 #main {
   min-height: 100vh;
