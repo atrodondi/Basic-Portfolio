@@ -1,103 +1,3 @@
-.header {
-  background-color: #ffffff;
-  border-bottom: 2px solid #cccccc;
-  width: 100%;
-  height: 70px;
-}
-
-#topname {
-  background-color: #4aaaa5;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  float: left;
-  height: 70px;
-  text-align: center;
-  width: 150px;
-}
-
-#navbar {
-  list-style-type: none;
-  margin: auto;
-  padding: 19px 0;
-  overflow: hidden;
-  background-color: #ffffff;
-}
-
-#container1 {
-  width: 960px;
-  height: 70px;
-  align-content: center;
-  vertical-align: middle;
-  text-align: center;
-  margin: auto auto;
-}
-
-#navbardiv {
-  float: right;
-  vertical-align: middle;
-  height: 70px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  background-image: url("../images/spikes.png"); /*  fix this to a relative path and get the background working, no absolute paths, per class on 1/18. makes sense since we wont have the same files on server*/
-  width: 100%;
-  height: 100%;
-  margin: 0 0;
-  padding: 0 0;
-}
-
-#header {
-  width: 100%;
-  height: 32px;
-}
-
-footer {
-  bottom: 0px;
-  position: relative;
-  width: 100%;
-  height: 40px;
-  border-top: 8px solid #4aaaa5;
-  background-color: #666666;
-  color: #ffffff;
-  text-align: center;
-  vertical-align: middle;
-  font-family: Arial, Helvetica, sans-serif;
-}
-li {
-  float: right;
-}
-
-li a {
-  display: block;
-  color: #777777;
-  text-align: center;
-  padding: 5px 5px;
-  text-decoration: none;
-}
-#ar {
-  font-size: x-large;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #ffffff;
-}
-
-html {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-}
-
-.content {
-  width: 870px;
-  margin: 50px auto;
-  background-color: #ffffff;
-  padding: 20px 45px;
-  height: 100%;
-}
-
-h1 {
-  color: #4aaaa5;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
 #proj1,
 #proj2,
 #proj3,
@@ -142,15 +42,14 @@ a {
   text-decoration: none;
 }
 
-#main {
-  min-height: 100vh;
-  position: relative;
-}
-
 #proj1:hover,
 #proj2:hover,
 #proj3:hover,
 #proj4:hover,
 #proj5:hover {
   background-color: red;
+}
+
+footer {
+  position: relative;
 }

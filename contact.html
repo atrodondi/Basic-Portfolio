@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/stylecontact.css" />
   </head>
   <body>
@@ -27,16 +28,22 @@
         <div>
           <form action="/action_page.php" id="contactform">
             Name:<br />
-            <input type="text" name="Name" value="John Smith" />
+            <input type="text" class="name" name="Name" value="John Smith" />
             <br />
             Email :<br />
-            <input type="text" name="Email" value="example@email.com" />
+            <input
+              type="text"
+              class="email"
+              name="Email"
+              value="example@email.com"
+            />
             <br /><br />
           </form>
           <textarea name="Comment" id="contactform" cols="100%" rows="10">
 Leave a comment...</textarea
           >
           <input id="submit" type="submit" value="Submit" />
+          <!--no idea if this will even work for a submit...but if not, i can fix later with javascript maybe?-->
         </div>
       </div>
 
